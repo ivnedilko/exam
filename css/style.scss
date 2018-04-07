@@ -1,0 +1,272 @@
+@import "normalize";
+@import "layout";
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,700');
+@font-face {
+	font-family: 'Aleo';
+	src: url("../fonts/aleo-regular-webfont.woff") format("woff"), url("../fonts/aleo-regular-webfont.woff2") format("woff2");
+	font-weight: 400;
+	font-style: normal;
+}
+
+$primary-color: #ffffff;
+$base-font-family: 'Josefin Sans', sans-serif;
+$head-text-font-family: 'Aleo', sans-serif;
+
+body {
+    font: 400 16px/1.6 $base-font-family;
+    color: $primary-color;
+    border: 5px solid #fff;
+}
+
+.ba-container{
+	padding-left: 15px;
+	padding-right: 15px;
+	max-width: 1150px;
+	margin: 0 auto;
+}
+
+/* Typography */
+a,
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+	background-color: #5474fd;
+	text-transform: uppercase;
+	font-family: $head-text-font-family;
+	text-transform: uppercase;
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover,
+.ba-button:hover
+{
+	color: #000;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="search"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+/*Header*/
+
+.ba-intro
+{
+	background: url("../img/header.jpg");
+}
+
+.ba-header-title
+{
+	font-size: 48px;
+	font-weight: 700;
+	letter-spacing: 100;
+	text-align: center;
+	padding-top: 265px;
+	text-transform: uppercase;
+}
+
+.ba-header-subtitle
+{
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 1;
+	letter-spacing: 310;
+	text-align: center;
+	font-family: $base-font-family;
+}
+
+.ba-form
+{
+	text-align: center;
+
+}
+
+.ba-search-form
+{
+    border: 2px solid #fff;
+    max-width: 645px;
+    display: flex;
+    margin: 0 auto;
+  	margin-bottom: 119px;
+}
+
+.ba-search-form__input
+{
+    flex-grow: 1;
+    text-align: center;
+}
+
+#Layer_1
+{
+	padding-left: 10px;
+}
+
+.ba-scroll
+{
+	display: block;
+	width: 102px;
+	height: 41px;
+    transition: transform .2s ease-in;
+    position: relative;
+    margin: auto;
+    padding-bottom: 137px;
+}
+
+.ba-scroll img
+{
+	padding-left: 38px;
+}
+
+.ba-header-menu
+{
+	background-color: #5474fd;
+}
+
+.ba-logo
+{
+	padding-top: 30px;
+	padding-left: 150px;
+}
+
+.ba-nav
+{
+	flex-grow: 1;
+	padding-right: 100px;
+}
+
+.ba-menu
+{
+	display: flex;
+	justify-content: flex-end;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.ba-menu a
+{
+	font-family: $head-text-font-family;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.8;
+	color: $primary-color;
+	text-decoration: none;
+}
+
+.ba-menu a
+{
+	margin: 0 20px;
+	text-transform: uppercase;
+}
+
+.ba-menu a:hover
+{
+	color: #000;
+}
+
+.ba-menu li:last-child a
+{
+	margin-right: 0;
+}
+
+.ba-menu li:first-child a
+{
+	margin-left: 0;
+}
+
+.ba-why-choose-us
+{
+	background-image: url("../img/untitled-1.jpg");
+}
+
+.ba-choose-info
+{
+	margin-left: 100px;
+	width: 538px;
+}
+
+.ba-info-title
+{
+	font-family: $head-text-font-family;
+	font-size: 36px;
+	font-weight: 400;
+	line-height: 0.7;
+	padding-bottom: 60px;
+	color: $primary-color;
+	padding-top: 206px;
+}
+
+.ba-info-text
+{
+	font-family: $base-font-family;
+	color: $primary-color;
+	font-size: 16px;
+}
+
+.ba-choose-img
+{
+	width: 470px;
+	display: inline-block;
+	float: right;
+}
+
+.ba-button
+{
+	padding: 17px 40px 17px 40px;
+	text-decoration: none;
+	text-decoration: underline;
+	margin-top: 49px;
+}
+
+.ba-central
+{
+	height: 340px;
+}
+
+.ba-central-part p
+{
+	color: $primary-color;
+	font-family: $head-text-font-family;
+	font-size: 36px;
+}
+
+.ba-spain
+{
+	background: url("../img/spain.jpg");
+}
+
+.ba-spain-block
+{
+	width: 546px;
+	height: 373px;
+}
+
+.ba-madrid
+{
+	background: url("../img/madrid.png");
+	margin: 0;
+}
